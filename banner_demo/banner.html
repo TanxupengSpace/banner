@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cn_zh">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" type="text/css" href="banner.css">
+</head>
+<body>
+    <div class="banner-container">
+        <!-- 轮播图 -->
+        <ul>
+            <li><a href="#"><img src="images/pic1.jpg"/></a></li>
+            <li><a href="#"><img src="images/pic2.jpg"/></a></li>
+            <li><a href="#"><img src="images/pic3.jpg"/></a></li>
+            <li><a href="#"><img src="images/pic4.jpg"/></a></li>
+        </ul>
+        <!-- 页码 -->
+        <div class="banner-pagination">
+            <!--<span></span>
+            <span class="span-active"></span>
+            <span></span>-->
+        </div>
+        <!-- 左右切换按钮 -->
+        <!--<div class="banner-button">
+            <div class="prev"></div>
+            <div class="next"></div>
+        </div>-->
+    </div>
+</body>
+<script type="text/javascript" src="jquery-min-3.5.1.js"></script>
+<script type="text/javascript" src="banner.js"></script>
+<script type="text/javascript">
+    $("ul").banner_slide();
+</script>
+</html>

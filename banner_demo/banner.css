@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.banner-container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+ul{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+ul li a img{
+    width: 100%;
+    height: 600px;
+}
+/* 页码 */
+.banner-pagination{
+    width: calc(100% - 60px);
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 30px;
+    padding: 0 30px;
+}
+.banner-pagination span{
+    display: inline-block;
+    width: 55px;
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.banner-pagination .span-active{
+    background-color: aqua;
+}
+.banner-button{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    top: 40%;
+}
+.banner-button .prev{
+    height: 150px;
+    width: 50px;
+    background-color: red;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.banner-button .next{
+    height: 150px;
+    width: 50px;
+    background-color: red;
+    margin-left: auto;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
